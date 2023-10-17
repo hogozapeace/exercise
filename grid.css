@@ -1,0 +1,22 @@
+body{
+    background-color: grey;
+}
+.mydiv{
+    width: 10em;
+    height: 10em;
+    background-color: blueviolet;
+    color: tomato;
+    font-size: 25px;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:24px;
+}
+.imagecontainer,img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    bo
+
+}

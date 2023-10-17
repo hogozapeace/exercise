@@ -1,0 +1,44 @@
+:root{
+    --primary-color:#326eb3;
+    --secondary-color:#0b3f46;
+    --partial-color:#810d3a;
+}
+body{
+    background-color: rgb(106, 170, 151);
+}
+#div1{
+    background-color:var(--primary-color); 
+    font-size: 20px;
+}
+#div2{
+    background-color:var(--secondary-color); 
+    font-size: 20px;
+}
+#div3{
+    background-color:var(--partial-color); 
+    font-size: 20px;
+}
+.my-class {
+    width: 100px; 
+    height: 100px;
+    color: #FFFF00;
+}
+.f1{
+    background-color: var(--partial-color);
+}
+section{
+    display: flex; 
+    flex-direction: column;
+    gap: 24px;
+
+}
+main{
+    display: flex; 
+    justify-content:space-around;
+
+}
+#oppp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
